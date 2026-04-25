@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.vscode/
+
+# Dados (Não subir os 1GB de músicas!)
+data/raw/
+data/processed/*.json
+
+# Modelos (Opcional: você pode subir os .pth se quiser que outros testem sem treinar)
+# models/*.pth
+
+# Resultados
+*.png
+matriz_de_confusao.png
